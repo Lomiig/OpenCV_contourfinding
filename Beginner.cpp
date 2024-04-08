@@ -7,7 +7,7 @@ using namespace cv;
 using namespace std;
 
 int main() {
-	string image_path = "E:/photos/street1.png";
+	string image_path = "street1.png";
 	Mat Clrimage = imread(image_path, IMREAD_COLOR);
 	Mat image = imread(image_path, IMREAD_GRAYSCALE);
 	Mat blur,laplimg,combimg,thimg,dist,imgcont,out,comb_8u;
